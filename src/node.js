@@ -4,6 +4,12 @@ class Node {
         this.prev = prev;
         this.next = next;
     }
+    toString(){
+    	data.toString();
+    	prev.toString();
+    	next.toString();
+
+    }
 }
 
 module.exports = Node;
